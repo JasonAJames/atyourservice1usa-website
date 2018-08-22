@@ -1,0 +1,66 @@
+body {
+  padding-top: 0%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+  background: url("/images/window_cleaning_1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.ui.text.container {
+  margin-top: 100px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  opacity: 0.8;
+}
+.ui.inverted.header {
+  color: beige;
+  
+}
+.navbar-brand {
+  font-size: 24px;
+}
+li  {
+  font-size: 18px;
+  margin-left: 50px;
+}
+.phonenumber_font {
+  font-size: 20px;
+  font-weight: bold;
+}
+ul {
+  padding-bottom: 25px;
+  margin-left: 50px;
+}
+.ui.inverted.headermain {
+  font-weight: bold;
+  color:black;
+}
+a {
+  color: midnightblue;
+}
+a:hover{
+  color: royalblue;
+}
+a.footeritem {
+  color: beige;
+  font-size: 16px;
+  margin: 10px;
+}
+a.footeritem:hover {
+  color: white;
+  font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+  color: beige;
+}
+.navbar-brand {
+  margin-left: 10%;
+}
