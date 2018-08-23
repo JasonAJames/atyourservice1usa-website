@@ -13,7 +13,9 @@ router.get('/', function(req, res, next) {
     service5: 'Construction CleanUp',
     location1: 'Eastvale',
     location2: 'Fontana',
-    location3: 'San Dimas'
+    location3: 'San Dimas',
+    keywords: 'Window Cleaning, Window Screen Repair, Pressure Washing, Construction CleanUp, Christmas Light Installation, at your service, home remodeling, home repair, window screen install, window screen service, at your service, ays',
+    metadesc: 'At Your Service (AYS) offers Window cleaning, window screen repair, power washing, construction cleanup, and Christmas light installation services to the Inland Empire and Surrounding Areas.'
    });
 });
 
