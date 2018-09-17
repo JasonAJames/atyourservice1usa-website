@@ -14,6 +14,7 @@ router.get('/', function(req, res, next) {
     location1: 'Eastvale',
     location2: 'Fontana',
     location3: 'San Dimas',
+    location4: 'Redlands',
     keywords: 'Window Cleaning, Window Screen Repair, Pressure Washing, Construction CleanUp, Christmas Light Installation, at your service, home remodeling, home repair, window screen install, window screen service, at your service, ays',
     metadesc: 'At Your Service (AYS) offers Window cleaning, window screen repair, power washing, construction cleanup, and Christmas light installation services to the Inland Empire and Surrounding Areas.'
    });
@@ -32,6 +33,7 @@ router.get('/fontana', function(req, res, next) {
     location1: 'Eastvale',
     location2: 'Fontana',
     location3: 'San Dimas',
+    location4: 'Redlands',
     keywords: 'Window Cleaning, Window Screen Repair, Pressure Washing, Construction CleanUp, Christmas Light Installation, at your service, home remodeling, home repair, window screen install, window screen service, at your service, ays, fontana',
     metadesc: 'At Your Service (AYS) Fontana offers Window cleaning, window screen repair, power washing, construction cleanup, and Christmas light installation services to Fontana and Surrounding Areas.'
 
@@ -51,6 +53,7 @@ router.get('/san-dimas', function(req, res, next) {
     location1: 'Eastvale',
     location2: 'Fontana',
     location3: 'San Dimas',
+    location4: 'Redlands',
     keywords: 'Window Cleaning, Window Screen Repair, Pressure Washing, Construction CleanUp, Christmas Light Installation, at your service, home remodeling, home repair, window screen install, window screen service, at your service, ays, san dimas',
     metadesc: 'At Your Service (AYS) San Dimas offers Window cleaning, window screen repair, power washing, construction cleanup, and Christmas light installation services to San Dimas and Surrounding Areas.'
 
@@ -70,6 +73,27 @@ router.get('/eastvale', function(req, res, next) {
     location1: 'Eastvale',
     location2: 'Fontana',
     location3: 'San Dimas',
+    location4: 'Redlands',
+    keywords: 'Window Cleaning, Window Screen Repair, Pressure Washing, Construction CleanUp, Christmas Light Installation, at your service, home remodeling, home repair, window screen install, window screen service, at your service, ays, eastvale',
+    metadesc: 'At Your Service (AYS) Eastvale offers Window cleaning, window screen repair, power washing, construction cleanup, and Christmas light installation services to Eastvale and Surrounding Areas.'
+
+   });
+});
+
+/* GET Redlands WestCoastWindowCleaning page. */
+router.get('/west-coast-window-cleaning', function(req, res, next) {
+  res.render('index', { title: 'At Your Service', city: 'Redlands', pagetitle: 'AtYourService1USA.com West Coast Window Cleaning',
+    imagelocation: '/images/AYS-Redlands.png',
+    phonenumber: '(909) 239-8961',
+    service1: 'Window Cleaning',
+    service2: 'Window Screen Repair',
+    service3: 'Pressure Washing',
+    service4: 'Christmas Light Installation',
+    service5: 'Construction CleanUp',
+    location1: 'Eastvale',
+    location2: 'Fontana',
+    location3: 'San Dimas',
+    location4: 'Redlands',
     keywords: 'Window Cleaning, Window Screen Repair, Pressure Washing, Construction CleanUp, Christmas Light Installation, at your service, home remodeling, home repair, window screen install, window screen service, at your service, ays, eastvale',
     metadesc: 'At Your Service (AYS) Eastvale offers Window cleaning, window screen repair, power washing, construction cleanup, and Christmas light installation services to Eastvale and Surrounding Areas.'
 
