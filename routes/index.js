@@ -61,7 +61,7 @@ router.get('/san-dimas', function(req, res, next) {
 router.get('/eastvale', function(req, res, next) {
   res.render('index', { title: 'At Your Service', city: 'Eastvale', pagetitle: 'AtYourService1USA.com Eastvale',
     imagelocation: '/images/AYS-Eastvale.png',
-    phonenumber: '(909) 329-2404',
+    phonenumber: '(951) 456-1010',
     service1: 'Window Cleaning',
     service2: 'Window Screen Repair',
     service3: 'Pressure Washing',
