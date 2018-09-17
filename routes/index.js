@@ -82,7 +82,7 @@ router.get('/eastvale', function(req, res, next) {
 
 /* GET Redlands WestCoastWindowCleaning page. */
 router.get('/west-coast-window-cleaning', function(req, res, next) {
-  res.render('index', { title: 'At Your Service', city: 'Redlands', pagetitle: 'AtYourService1USA.com West Coast Window Cleaning',
+  res.render('index', { title: 'At Your Service', city: 'Redlands', pagetitle: 'AtYourService1USA.com Redlands - aka: West Coast Window Cleaning',
     imagelocation: '/images/AYS-Redlands.png',
     phonenumber: '(909) 239-8961',
     service1: 'Window Cleaning',
@@ -95,7 +95,7 @@ router.get('/west-coast-window-cleaning', function(req, res, next) {
     location3: 'San Dimas',
     location4: 'Redlands',
     keywords: 'Window Cleaning, Window Screen Repair, Pressure Washing, Construction CleanUp, Christmas Light Installation, at your service, home remodeling, home repair, window screen install, window screen service, at your service, ays, eastvale',
-    metadesc: 'At Your Service (AYS) Eastvale offers Window cleaning, window screen repair, power washing, construction cleanup, and Christmas light installation services to Eastvale and Surrounding Areas.'
+    metadesc: 'At Your Service (AYS) Redlands, aka West Coast Window Cleaning offers Window cleaning, window screen repair, power washing, construction cleanup, and Christmas light installation services to Eastvale and Surrounding Areas.'
 
    });
 });
