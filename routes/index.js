@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'At Your Service', pagetitle: 'AtYourService1USA.com',
+  res.render('error', { title: 'At Your Service', pagetitle: 'AtYourService1USA.com',
     imagelocation: '/images/AYS-Headquarters.png',
     phonenumber: '(909) 329-2404',
     service1: 'Window Cleaning',
@@ -22,7 +22,7 @@ router.get('/', function(req, res, next) {
 
 /* GET Fontana page. */
 router.get('/fontana', function(req, res, next) {
-  res.render('index', { title: 'At Your Service', city: 'Fontana', pagetitle: 'AtYourService1USA.com Fontana',
+  res.render('error', { title: 'At Your Service', city: 'Fontana', pagetitle: 'AtYourService1USA.com Fontana',
     imagelocation: '/images/AYS-Fontana.png',
     phonenumber: '(909) 329-2404',
     service1: 'Window Cleaning',
@@ -42,7 +42,7 @@ router.get('/fontana', function(req, res, next) {
 
 /* GET San Dimas page. */
 router.get('/san-dimas', function(req, res, next) {
-  res.render('index', { title: 'At Your Service', city: 'San Dimas', pagetitle: 'AtYourService1USA.com San Dimas',
+  res.render('error', { title: 'At Your Service', city: 'San Dimas', pagetitle: 'AtYourService1USA.com San Dimas',
     imagelocation: '/images/AYS-SanDimas.png',
     phonenumber: '(626) 387-3336',
     service1: 'Window Cleaning',
@@ -62,7 +62,7 @@ router.get('/san-dimas', function(req, res, next) {
 
 /* GET Eastvale page. */
 router.get('/eastvale', function(req, res, next) {
-  res.render('index', { title: 'At Your Service', city: 'Eastvale', pagetitle: 'AtYourService1USA.com Eastvale',
+  res.render('error', { title: 'At Your Service', city: 'Eastvale', pagetitle: 'AtYourService1USA.com Eastvale',
     imagelocation: '/images/AYS-Eastvale.png',
     phonenumber: '(951) 456-1010',
     service1: 'Window Cleaning',
@@ -82,7 +82,7 @@ router.get('/eastvale', function(req, res, next) {
 
 /* GET Redlands WestCoastWindowCleaning page. */
 router.get('/west-coast-window-cleaning', function(req, res, next) {
-  res.render('index', { title: 'At Your Service', city: 'Redlands', pagetitle: 'AtYourService1USA.com Redlands - aka: West Coast Window Cleaning',
+  res.render('error', { title: 'At Your Service', city: 'Redlands', pagetitle: 'AtYourService1USA.com Redlands - aka: West Coast Window Cleaning',
     imagelocation: '/images/AYS-Redlands.png',
     phonenumber: '(909) 239-8961',
     service1: 'Window Cleaning',
